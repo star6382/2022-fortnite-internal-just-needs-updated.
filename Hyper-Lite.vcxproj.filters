@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CoreEngine.cpp">
+      <Filter>cheat\core\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>cheat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoreEngine.h">
+      <Filter>cheat\core\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="UE5Structure.h">
+      <Filter>cheat\core\engine\unreal structure</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrealSDKClass.h">
+      <Filter>cheat\core\engine\unreal structure\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="spoof.h">
+      <Filter>cheat\core\misc\asm</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternScanner.h">
+      <Filter>cheat\core\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>cheat\core\misc\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Hyper_menu.h">
+      <Filter>cheat\core\impl\render\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_render.hh">
+      <Filter>cheat\core\impl\render\menu\render menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.hpp">
+      <Filter>cheat\core\impl\render\player</Filter>
+    </ClInclude>
+    <ClInclude Include="Afort.hpp">
+      <Filter>cheat\core\impl\render\player\player sturcts</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.hpp">
+      <Filter>cheat\core\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>cheat\core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cheat">
+      <UniqueIdentifier>{7bc408f4-cbd8-48d4-9179-1ab8b687edb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\core">
+      <UniqueIdentifier>{54b11ed7-65bf-498f-8374-4bd07bc85a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\core\engine">
+      <UniqueIdentifier>{69e896c4-937d-425b-8bb9-d15ebff8c6e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\core\misc">
+      <UniqueIdentifier>{d1734c9e-799e-48dc-8a9e-8e9986bbe626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\core\misc\asm">
+      <UniqueIdentifier>{f5a3ae7d-dfb5-4e55-9968-ee7613e15777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\core\misc\menu">
+      <UniqueIdentifier>{870cd49d-39ba-412c-981a-65bd4abd75de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\core\engine\unreal structure">
+      <UniqueIdentifier>{a421f80e-d379-4524-bbb9-71298cafd547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\core\engine\unreal structure\sdk">
+      <UniqueIdentifier>{961036bc-7a86-4868-8f95-fe4deff906b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\core\impl">
+      <UniqueIdentifier>{bc1a6441-f8f0-4685-a42d-84db504a7168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\core\impl\render">
+      <UniqueIdentifier>{66c9c37d-da8f-4df1-90b5-5659d76584b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\core\impl\render\menu">
+      <UniqueIdentifier>{c85c274e-6452-4907-afb3-10c9330ea73b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\core\impl\render\menu\render menu">
+      <UniqueIdentifier>{3d237032-5849-47b9-885a-583ea4b18b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\core\impl\render\player">
+      <UniqueIdentifier>{45fa2b2a-8e88-45b0-b468-4400e9b922d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\core\impl\render\player\player sturcts">
+      <UniqueIdentifier>{9395c198-aa26-4e36-a230-8fed43710863}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="spoof.asm">
+      <Filter>cheat\core\misc\asm</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
